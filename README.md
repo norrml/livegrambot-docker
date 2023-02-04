@@ -51,6 +51,8 @@ numbers indicate message forwarded to owner
 ## Further Reading...
 
 How to set up, so that folder names act as `--name`. Coming soon. 
+
+` sudo docker run -dit --name $(basename $PWD) livegram-docker `
  
  ---
 
