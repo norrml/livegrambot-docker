@@ -20,33 +20,21 @@ then:
 1 step: OPEN config.py
 2 step: It looks like:
 
-
 edit this by what you want:
-
 blocked = "bot was blocked by the user"
-
 start = "Hello! This is your start message!"
-
-
 ban = "you were banned by the admin!"
-
-
 unban = "you were unbanned by the admin."
-
-
 text_message = "Message that would be send if somebody writes any text"
-
-
 main_id = yourtelegramid #id without quotes you also can write here group id
-
 
 
 step 3:
 
 
-Run this script, currently it was tested on Windows 10.
-
-
+Run this script.
 Thank you.
 
+# about
+https://github.com/anonyindian/livegrambot
 
