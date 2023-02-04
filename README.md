@@ -10,7 +10,6 @@ Docker Advantage : Host multiple bots on server.
 
 ` nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
 
-
 # Docker How to :
 
 ` sudo ` before each line if required. 
@@ -27,6 +26,11 @@ Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-
 # Docker-Compose
 
 - [ ] coming soon
+
+---
+# Finally...
+
+Finally, Start the bot yourself to start accpeting chats ` t.me/nameof_your_bot `
 
 
 ---
