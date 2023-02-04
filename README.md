@@ -42,6 +42,11 @@ Finally, Start the bot yourself to start accpeting chats ` t.me/nameof_your_bot 
 
 numbers indicate message forwarded to owner
 
+
+## Further Reading...
+
+How to set up, so that folder names act as `--name`. Coming soon. 
+
 ---
 
 ### How to : ( without docker)
