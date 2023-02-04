@@ -51,13 +51,8 @@ numbers indicate message forwarded to owner
 ## Further Reading...
 
 How to set up, so that folder names act as `--name`. Coming soon. 
-
-` mkdir nameofthebot  && cd nameofthebot `
-
-` git clone https://github.com/norrml/livegrambot-docker.git . `
-
-
----
+ 
+ ---
 
 ### How to : ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
