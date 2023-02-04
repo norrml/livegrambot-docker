@@ -18,14 +18,15 @@ This is free source livegram bot. Code can be installed and used for good purpos
 
 ` docker build -t livegram-docker:latest . `
 
-
 ` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
 
 Setting `--name` is easier to stop
 
 Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
 
-Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot
+Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
+
+Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` sudo docker rmi livegram-docker `
 
 Attach : ` docker attach livegram1 `
 
