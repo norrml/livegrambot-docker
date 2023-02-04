@@ -7,6 +7,8 @@ This is free source livegram bot. Code can be installed and used for good purpos
 
 ` cd livegrambot-docker `
 
+` nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
+
 
 # Docker How to :
 
@@ -15,6 +17,7 @@ This is free source livegram bot. Code can be installed and used for good purpos
 ` cd livegram-docker `
 
 ` docker build -t livegram-docker:latest . `
+
 
 ` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
 
