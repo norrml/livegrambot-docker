@@ -23,6 +23,12 @@ Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` su
 
 Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-q  detach (thanks to `-it` flags)
 
+## Run Live
+
+`tmux` 
+
+` sudo docker run -it --name livegram1 livegram-docker `
+
 # Docker-Compose
 
 - [ ] coming soon
