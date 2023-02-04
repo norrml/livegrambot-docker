@@ -1,8 +1,9 @@
-blocked = "bot was blocked by the user"#message that would be displayed if user has blocked you
-start = "Hello! This is your start message!"#start command
-ban = "you were banned by the admin!"#ban message
-unban = "you were unbanned by the admin."#unban message
-text_message = "Message that would be send if somebody writes any text"#answering_text to user
-banned = "you are blocked"#if admin has blocked a user
-main_id = -1001105353864 #id without quotes #can be group id
-TOKEN = "TOKEN HERE"#bot token
+blocked = "Bot Error"#message that would be displayed if user has blocked you
+start = "Hello! Introduction! Send /help for More info."#start command
+ban = "Ban this fool (Used by Owner)"#ban message, used by admin
+unban = "Unbanned :) Be Nice."#unban message
+text_message = "Message Forwared! Wait 1 Second before sending."#answering_text to user
+banned = "Banned!"#if admin has blocked a user
+main_id = -12345 #id without quotes #can be group id
+TOKEN = "22222:33333333333333333"#bot token
+## /help should be set up in @botfather
