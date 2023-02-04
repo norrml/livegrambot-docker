@@ -5,8 +5,10 @@ Code can be installed and used for good purposes.
 
 By using our code, you agree to have copyright icon on your bot.
 
+# Docker Instructions
+[ ] pending....
 
-#INSTRUCTIONS:
+# INSTRUCTIONS: ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
 
 then:
