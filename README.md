@@ -9,7 +9,7 @@ By using our code, you agree to have copyright icon on your bot.
 
 ` cd livegram-docker `
 
-` docker build -t livegram:latest . `
+` docker build -t livegram-docker:latest . `
 
 ` sudo docker run -d --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
 Setting name is easier to stop
