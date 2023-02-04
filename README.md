@@ -10,9 +10,9 @@ This is free source livegram bot. Code can be installed and used for good purpos
 
 ` docker build -t livegram-docker:latest . `
 
-`   docker run -d --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
+` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
 
-Setting name is easier to stop
+Setting `--name` is easier to stop
 
 Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
 
