@@ -8,7 +8,7 @@ Docker Advantage : Host multiple bots on server.
 
 ` cd livegrambot-docker `
 
-` nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
+`nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
 
 ## Docker How to :
 
@@ -16,8 +16,8 @@ Docker Advantage : Host multiple bots on server.
 
 1. Build it ` docker build -t livegram-docker:latest . `
 2. Start/Run it ` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker ) ( Set `--name` is easier to stop ) 
-3. Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
-4. Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
+3. Stopping : `docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
+4. Removing : `docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
 
 Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` sudo docker rmi livegram-docker `
 
