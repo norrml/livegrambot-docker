@@ -7,6 +7,8 @@ By using our code, you agree to have copyright icon on your bot.
 
 # Docker Instruction
 
+` sudo ` before each line if required. 
+
 ` cd livegram-docker `
 
 ` docker build -t livegram-docker:latest . `
