@@ -15,23 +15,14 @@ Docker Advantage : Host multiple bots on server.
 
 ` sudo ` before each line if required. 
 
-` cd livegram-docker `
-
-` docker build -t livegram-docker:latest . `
-
-` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
-
-Setting `--name` is easier to stop
-
-Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
-
-Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
+1. Build it ` docker build -t livegram-docker:latest . `
+2. Start/Run it ` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker ) ( Set `--name` is easier to stop ) 
+3. Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
+4. Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
 
 Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` sudo docker rmi livegram-docker `
 
-Attach : ` docker attach livegram1 `
-
-press CTRL-p CTRL-q  detach (thanks to `-it` flags)
+Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-q  detach (thanks to `-it` flags)
 
 # Docker-Compose
 
