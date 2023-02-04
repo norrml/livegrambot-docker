@@ -23,12 +23,6 @@ Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` su
 
 Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-q  detach (thanks to `-it` flags)
 
-## Run Live
-
-`tmux` 
-
-` sudo docker run -it --name livegram1 livegram-docker `
-
 # Docker-Compose
 
 - [ ] coming soon
@@ -38,6 +32,13 @@ Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-
 
 Finally, Start the bot yourself to start accpeting chats ` t.me/nameof_your_bot `
 
+## Run Live
+
+`tmux` 
+
+` sudo docker run -it --name livegram1 livegram-docker `
+
+https://raw.githubusercontent.com/norrml/livegrambot-docker/main/image.png
 
 ---
 
