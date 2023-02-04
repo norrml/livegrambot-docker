@@ -38,7 +38,9 @@ Finally, Start the bot yourself to start accpeting chats ` t.me/nameof_your_bot 
 
 ` sudo docker run -it --name livegram1 livegram-docker `
 
-https://raw.githubusercontent.com/norrml/livegrambot-docker/main/image.png
+![numbers indicate message forwarded to owner](https://raw.githubusercontent.com/norrml/livegrambot-docker/main/image.png)
+
+numbers indicate message forwarded to owner
 
 ---
 
