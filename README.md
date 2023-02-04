@@ -2,7 +2,7 @@
 This is free source livegram bot. Code can be installed and used for good purposes. By using our code, you agree to have copyright icon on your bot.
 Docker Advantage : Host multiple bots on server.
 
-# How to beginning :
+## How to beginning :
 
 ` git clone https://github.com/norrml/livegrambot-docker.git `
 
@@ -10,7 +10,7 @@ Docker Advantage : Host multiple bots on server.
 
 ` nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
 
-# Docker How to :
+## Docker How to :
 
 ` sudo ` before each line if required. 
 
@@ -23,7 +23,7 @@ Remove image, if it's built wrong, or want to change BOTTOKEN, USER_ID etc  ` su
 
 Attach : ` docker attach livegram1 ` to debug any errors and  press CTRL-p CTRL-q  detach (thanks to `-it` flags)
 
-# Docker-Compose
+## Docker-Compose
 
 - [ ] coming soon
 
@@ -44,7 +44,7 @@ numbers indicate message forwarded to owner
 
 ---
 
-# How to : ( without docker)
+### How to : ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
 
 then:
