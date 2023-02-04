@@ -1,6 +1,12 @@
 # livegrambot-docker
 This is free source livegram bot. Code can be installed and used for good purposes. By using our code, you agree to have copyright icon on your bot.
 
+# How to beginning :
+
+` git clone https://github.com/norrml/livegrambot-docker.git `
+
+` cd livegrambot-docker `
+
 
 # Docker How to :
 
