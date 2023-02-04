@@ -18,6 +18,9 @@ Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
 
 Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot
 
+Attach : ` docker attach livegram1 `
+
+press CTRL-p CTRL-q  detach (thanks to `-it` flags)
 
 # Docker-Compose
 
