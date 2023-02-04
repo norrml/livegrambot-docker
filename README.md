@@ -22,10 +22,11 @@ Docker Advantage : Host multiple bots on server.
 
 To change BOTTOKEN, USER_ID etc  
 
-1. Stopping : `docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
-2. Removing : `docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
+1. Stopp : `docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
+2. Remove : `docker rm livegram1 ` OR  sudo docker rm nameofspecificbot 
 3. Remove image : ` sudo docker rmi livegram-docker `
-
+ 
+And rebuild from above.
 
 ## Docker-Compose
 
