@@ -6,7 +6,7 @@ Code can be installed and used for good purposes.
 By using our code, you agree to have copyright icon on your bot.
 
 # Docker Instruction
-- [ ]pending....
+- [ ] pending....
 
 # INSTRUCTIONS: ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
@@ -14,6 +14,7 @@ By using our code, you agree to have copyright icon on your bot.
 then:
 
 2. `nano config.py  `
+
 blocked = "bot was blocked by the user"
 
 start = "Hello! This is your start message!"
