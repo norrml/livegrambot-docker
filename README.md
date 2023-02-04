@@ -61,4 +61,4 @@ step 3: Run this script.
 # about
 https://github.com/anonyindian/livegrambot Plus Docker support
 
-` t.me/norrml_pa_bot ` not set up yet. :(
+` t.me/livegram_docker_bot ` :)
