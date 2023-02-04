@@ -5,7 +5,7 @@ Code can be installed and used for good purposes.
 
 By using our code, you agree to have copyright icon on your bot.
 
-# Docker Instruction
+# Docker How to :
 
 ` sudo ` before each line if required. 
 
@@ -13,15 +13,22 @@ By using our code, you agree to have copyright icon on your bot.
 
 ` docker build -t livegram-docker:latest . `
 
-` sudo docker run -d --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
+`   docker run -d --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
 Setting name is easier to stop
 
-Stopping : `  sudo docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
-Removing : `  sudo docker rm livegram1 `
+Stopping : `    docker stop livegram1 `  OR  sudo docker stop nameofspecificbot
+
+Removing : `    docker rm livegram1 ` OR  sudo docker rm nameofspecificbot
+
+
+# Docker-Compose
+
+- [ ] coming soon
+
 
 ---
 
-# INSTRUCTIONS: ( without docker)
+# How to : ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
 
 then:
