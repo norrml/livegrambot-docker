@@ -11,8 +11,8 @@ By using our code, you agree to have copyright icon on your bot.
 
 ` docker build -t livegram:latest . `
 
-` sudo docker run -d livegram-docker --name livegram `  ( OR sudo docker run -d livegram-docker --name putspecificbotname )
-
+` sudo docker run -d --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker )
+Setting name is easier to stop
 
 # INSTRUCTIONS: ( without docker)
 1.  Install PYTELEGRAMBOTAPI - `pip3 install pytelegrambotapi`
