@@ -3,11 +3,9 @@
 This is free source livegram bot. Code can be installed and used for good purposes. By using our code, you agree to have copyright icon on your bot.
 Docker Advantage : Host multiple bots on server.
 
-## How to beginning :
+## How to Start :
 
-` git clone https://github.com/norrml/livegrambot-docker.git `
-
-` cd livegrambot-docker `
+` git clone https://github.com/norrml/livegrambot-docker.git && cd livegrambot-docker` |  `mkdir NameofSpecificBot && cd NameofSpecifcbot &&   git clone https://github.com/norrml/livegrambot-docker.git . `
 
 `nano config.py ` add bot Token, Your personal user_id  (group ids work, but admin cannot reply from it, /shrug)
 
