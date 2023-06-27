@@ -51,6 +51,8 @@ numbers indicate message forwarded to owner
 
 ![User's Name will be visible, but NOT Clickable](https://github.com/norrml/livegrambot-docker/blob/main/lgdbot%20avatar.png)
 
+User's Name will be visible, but NOT Clickable
+
 ## Further Reading...
 
 How to set up, so that folder names act as `--name`. Coming soon. 
