@@ -9,15 +9,17 @@ Docker Advantage : Host multiple bots on server.
 
 ` cd livegrambot-docker `
 
-`nano config.pyv ` add bot Token, Your personal  user_id (group ids work, but admin cannot reply from it, /shrug)
+`nano config.py ` add bot Token, Your personal user_id  (group ids work, but admin cannot reply from it, /shrug)
 
 ## Docker How to :
 
 ` sudo ` before each line if required. 
 
 1. Build it ` docker build -t livegram-docker:latest . `
-2. Start/Run it ` docker run -dit --name livegram1 livegram-docker `  ( OR sudo docker run -d --name nameofspecificbot livegram-docker ) ( Set `--name` is easier to stop ) 
-
+2. Start/Run it ` docker run -dit --name livegram1 livegram-docker `
+( OR sudo docker run -d --name nameofspecificbot livegram-docker )
+( Set `--name` is easier to stop )
+3. Finally, Start the bot yourself to start accepting chats ` t.me/nameof_your_bot `
 
 ### Editting Bot 
 
@@ -34,13 +36,9 @@ And rebuild from above.
 - [ ] coming soon
 
 ---
-# Finally...
-
-Finally, Start the bot yourself to start accpeting chats ` t.me/nameof_your_bot `
-
 ## Run Live
 
-`tmux` 
+`tmux`  Run in tmux, to get used to it.
 
 ` sudo docker run -it --name livegram1 livegram-docker `
 
@@ -58,8 +56,8 @@ User's Name will be visible, but NOT Clickable
 
 How to set up, so that folder names act as `--name`. Coming soon. 
 
-` sudo docker run -dit --name $(basename $PWD) livegram-docker `
- 
+``` sudo docker run -dit --name $(basename $PWD) livegram-docker ``` 
+ (Untested) 
  ---
 
 ### How to : ( without docker)
@@ -89,4 +87,4 @@ step 3: Run this script.
 https://github.com/anonyindian/livegrambot Plus Docker support
 
 ` t.me/livegram_docker_bot ` :)
-` t.me/norrml_bot ` :)
+~~` t.me/norrml_bot `~~ :)
